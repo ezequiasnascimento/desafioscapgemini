@@ -27,8 +27,8 @@ while True:
           degrau = degrau + " "
       cont = cont - 1
       print(degrau)
-  resposta = input(("Deseja encerrar a aplicação? sim//não "))
-  if resposta == "sim":
+  resposta = input(("Deseja encerrar a aplicação? s//n "))
+  if resposta == "s":
     break
   
 
